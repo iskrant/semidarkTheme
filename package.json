@@ -1,0 +1,50 @@
+{
+    "name": "semidark-theme",
+    "displayName": "SemiDark Theme",
+    "description": "SemiDark theme for VS Code",
+    "publisher": "iskrant",
+    "license": "MIT",
+    "icon": "logo.png",
+    "version": "0.0.6",
+
+    "galleryBanner": {
+        "color": "#1b1f23",
+        "theme": "dark"
+      },
+      "homepage": "https://github.com/iskrant/semidarkTheme/blob/master/README.md",
+
+      "engines": {
+        "vscode": "^1.43.0"
+      },
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/iskrant/semidarkTheme.git"
+      },
+      "categories": [
+        "Themes",
+        "Other"
+      ],
+      "keywords": [
+        "semidark",
+        "Theme",
+        "Themes",
+        "VSCode",
+        "dark",
+        "semi", 
+        "semi dark"
+      ],
+
+
+    "contributes": {
+        "themes": [
+            {
+                "label": "SemiDark Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/semidark.json"
+            }
+        ]
+    },
+    "publishConfig": {
+      "access": "public"
+    }
+}
