@@ -1,5 +1,7 @@
 {
+  "$schema": "vscode://schemas/color-theme",
   "semanticHighlighting": true,
+  
   
   "tokenColors": [
     {
@@ -745,9 +747,75 @@
       "name": "Integers",
       "scope": "constant.numeric",
       "settings": {
-        "foreground": "#ce5e4e"
+        "foreground": "#ce5e4e" 
       }
     },
+    {
+      "name": "Integers nginx",
+      "scope": "source.nginx constant.numeric",
+      "settings": {
+        "foreground": "#ce5e4e" 
+      }
+    }, 
+    {
+      "name": "Integers nginx",
+      "scope": "source.nginx constant.character.end",
+      "settings": {
+        "foreground": "#DE935F" 
+      }
+    },
+    {
+      "name": "Rewrite nginx",
+      "scope": "source.nginx constant.language.module",
+      "settings": {
+        "foreground": "#628B4D" 
+      }
+    },
+    {
+      "name": "http module nginx",
+      "scope": "source.nginx constant.language.directive.module.http",
+      "settings": {
+        "foreground": "#6598BF" 
+      }
+    }, 
+    {
+      "name": "Rewrite nginx",
+      "scope": "source.nginx constant.language.module.http.rewrite",
+      "settings": {
+        "foreground": "#628B4D" 
+      }
+    },
+    {
+      "name": "Rewrite nginx",
+      "scope": "source.nginx constant.language.module.http.proxy",
+      "settings": {
+        "foreground": "#65959C" 
+      }
+    },
+    {
+      "name": "Limits req nginx",
+      "scope": "source.nginx constant.language.module.http.limit_req",
+      "settings": {
+        "foreground": "#628B4D" 
+      }
+    },
+    {
+      "name": "Nginx Access",
+      "scope": "source.nginx constant.language.module.http.access",
+      "settings": {
+        "foreground": "#DE935F" 
+      }
+    },
+    {
+      "name": "Nginx Main",
+      "scope": "source.nginx constant.language.directive.module.main",
+      "settings": {
+        "foreground": "#DE935F" 
+      }
+    },
+
+
+
     {
       "name": "Constants",
       "scope": "constant",
