@@ -1,8 +1,8 @@
 {
   "$schema": "vscode://schemas/color-theme",
   "semanticHighlighting": true,
-  
-  
+
+
   "tokenColors": [
     {
       "name": "unison punctuation",
@@ -747,70 +747,70 @@
       "name": "Integers",
       "scope": "constant.numeric",
       "settings": {
-        "foreground": "#ce5e4e" 
+        "foreground": "#ce5e4e"
       }
     },
     {
       "name": "Integers nginx",
       "scope": "source.nginx constant.numeric",
       "settings": {
-        "foreground": "#ce5e4e" 
+        "foreground": "#ce5e4e"
       }
-    }, 
+    },
     {
       "name": "Integers nginx",
       "scope": "source.nginx constant.character.end",
       "settings": {
-        "foreground": "#DE935F" 
+        "foreground": "#DE935F"
       }
     },
     {
       "name": "Rewrite nginx",
       "scope": "source.nginx constant.language.module",
       "settings": {
-        "foreground": "#628B4D" 
+        "foreground": "#628B4D"
       }
     },
     {
       "name": "http module nginx",
       "scope": "source.nginx constant.language.directive.module.http",
       "settings": {
-        "foreground": "#6598BF" 
+        "foreground": "#6598BF"
       }
-    }, 
+    },
     {
       "name": "Rewrite nginx",
       "scope": "source.nginx constant.language.module.http.rewrite",
       "settings": {
-        "foreground": "#628B4D" 
+        "foreground": "#628B4D"
       }
     },
     {
       "name": "Rewrite nginx",
       "scope": "source.nginx constant.language.module.http.proxy",
       "settings": {
-        "foreground": "#65959C" 
+        "foreground": "#65959C"
       }
     },
     {
       "name": "Limits req nginx",
       "scope": "source.nginx constant.language.module.http.limit_req",
       "settings": {
-        "foreground": "#628B4D" 
+        "foreground": "#628B4D"
       }
     },
     {
       "name": "Nginx Access",
       "scope": "source.nginx constant.language.module.http.access",
       "settings": {
-        "foreground": "#DE935F" 
+        "foreground": "#DE935F"
       }
     },
     {
       "name": "Nginx Main",
       "scope": "source.nginx constant.language.directive.module.main",
       "settings": {
-        "foreground": "#DE935F" 
+        "foreground": "#DE935F"
       }
     },
 
@@ -1930,8 +1930,8 @@
     "listFilterWidget.background": "#653723",
     "listFilterWidget.outline": "#00000000",
     "listFilterWidget.noMatchesOutline": "#be1100",
-    "statusBar.foreground": "#ffffff",
-    "statusBar.background": "#007acc",
+    "statusBar.foreground": "#aaaaaa",
+    "statusBar.background": "#333333",
     "statusBarItem.hoverBackground": "#ffffff1f",
     "statusBar.debuggingBackground": "#cc6633",
     "statusBar.debuggingForeground": "#ffffff",
@@ -1945,7 +1945,7 @@
     "titleBar.inactiveForeground": "#cccccc99",
     "titleBar.border": "#00000000",
     "menubar.selectionForeground": "#cccccc",
-    "menubar.selectionBackground": "#ffffff1a",
+    "menubar.selectionBackground": "#352b2b1a",
     "menu.foreground": "#cccccc",
     "menu.background": "#303132",
     "menu.selectionForeground": "#ffffff",
